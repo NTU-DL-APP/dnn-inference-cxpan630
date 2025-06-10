@@ -41,7 +41,7 @@ def create_fashion_mnist_model():
     print("\n🚀 開始訓練模型...")
     history = model.fit(
         x_train, y_train,
-        epochs=10,
+        epochs=100,
         batch_size=128,
         validation_split=0.1,
         verbose=1
